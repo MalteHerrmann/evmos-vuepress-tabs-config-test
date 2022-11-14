@@ -6,6 +6,13 @@ The [Evmos docs](https://docs.evmos.org) are being built with `vuepress`. Using 
 
 - The syntax in the corresponding [`.md` file](https://raw.githubusercontent.com/evmos/evmos/63a79e950ad3f036049a5883b553b26bf405647a/docs/developers/explorers.md) is correct, as compared to the [plugin docs](https://github.com/bidoubiwa/vuepress-plugin-element-tabs).
 
+- To serve a reduced version of the docs using the configuration from the Evmos repo, which does NOT work as expected, one can use:
+```
+ $ cd example_evmos_config
+ $ yarn
+ $ yarn serve
+```
+
 - The minimal example provided here, which is taken from the [plugin docs](https://github.com/bidoubiwa/vuepress-plugin-element-tabs)), runs correctly.
 ```
  $ cd vuepress-plugin-element-tabs

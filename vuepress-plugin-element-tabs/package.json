@@ -1,0 +1,34 @@
+{
+  "name": "@bidoubiwa/vuepress-plugin-element-tabs",
+  "version": "0.2.9",
+  "description": "Vuepress plugin - Tabs Container for Vuepress",
+  "author": "bidoubiwa",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bidoubiwa/vuepress-plugin-element-tabs.git"
+  },
+  "keywords": [
+    "vuepress-plugin",
+    "tabs",
+    "component"
+  ],
+  "bugs": {
+    "url": "https://github.com/bidoubiwa/vuepress-plugin-element-tabs/issues"
+  },
+  "homepage": "https://github.com/bidoubiwa/vuepress-plugin-element-tabs/blob/main/README.md",
+  "devDependencies": {
+    "release-it": "^10.3.1",
+    "vuepress": "^1.0.1"
+  },
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.1",
+    "sass": "^1.52.1",
+    "sass-loader": "^7.1.0"
+  }
+}

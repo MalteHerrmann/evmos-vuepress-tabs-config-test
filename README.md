@@ -20,6 +20,13 @@ The [Evmos docs](https://docs.evmos.org) are being built with `vuepress`. Using 
  $ yarn dev
 ```
 
+## Observations
+
+- The Evmos docs are using `node-sass`, which is [deprecated](https://www.npmjs.com/package/node-sass).
+- The `cosmos-sdk` ([#13471](https://github.com/cosmos/cosmos-sdk/pull/13471)) and `osmosis` ([#158](https://github.com/osmosis-labs/docs/pull/158)) docs recently migrated from this  `vuepress` setup to [`docusaurus`](https://docusaurus.io/).
+- Some other things on the Evmos docs are broken (on the top right corner e.g. there is an invisible dropdown for the version), so it might make sense to follow the pack and migrate as well?
+
+
 ## Working Versions of Evmos
 
 The following versions of Evmos have been tested to see if the docs were built as expected, but none of them worked as of November '22. To revert back to the given tags, I used e.g. `git checkout v9.1.0`.

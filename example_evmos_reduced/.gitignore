@@ -1,0 +1,9 @@
+# Node modules
+/node_modules
+
+# Yarn files
+yarn.lock
+
+# Other files
+.DS_Store
+
